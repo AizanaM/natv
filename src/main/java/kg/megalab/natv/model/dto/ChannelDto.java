@@ -10,6 +10,7 @@ import lombok.experimental.FieldDefaults;
 public class ChannelDto {
 
     Long id;
-    String maneOfChannel;
+    String nameOfChannel;
     String channelNumbers;
+    String imageSource;
 }

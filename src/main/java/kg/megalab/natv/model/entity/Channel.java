@@ -22,4 +22,7 @@ public class Channel extends AbstractPersistable<Long> {
 
     @Column(name = "channel_numbers", nullable = false, unique = true)
     String channelNumbers;
+
+    @Column(name = "image_source", nullable = false)
+    String imageSource;
 }
